@@ -48,7 +48,12 @@
         background-color: #4d5154;
         color: white;
     }
+    .subheadline {
+        text-align: center;
+    }
     iframe {
+        margin: auto;
+        display: block;
         width: 70vw;
         max-width: 560px;
         height: calc((9/16)*70vw);
