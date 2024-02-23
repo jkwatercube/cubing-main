@@ -82,12 +82,13 @@
         font-size: 35px;
         font-weight: bolder;
     }
-    .legal_notice {
+     .legal_notice {
         background-color: #002244;
         color:#FFFF;
         align-items: baseline;
         text-decoration: none;
         font-size: 1.2rem;
+    
     } 
     .legal_notice a {
         text-decoration: none;
