@@ -37,17 +37,13 @@
         color: white;
     }
     .nav-link {
-        color: #FFFF;
-    }
-    .btn-dark {
-        background-color: #002244;
-        border: none;
         font-size: 1.6em; 
         font-weight: bold; 
         transform: translateY(-5px);
     }
-    .btn :hover {
+    .nav-link :hover {
         background-color: none;
+        color: #FB4F14;
     }     
     .dropdown-item {
         color: #FFFF;
