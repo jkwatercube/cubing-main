@@ -2,8 +2,21 @@
     body {
         font-family: 'Open Sans', sans-serif;
         background-color: white;
-        position: relative;
-        min-height: 100vh;
+    }
+    #page-container {
+      position: relative;
+      min-height: 100vh;
+    }
+
+    #content-wrap {
+      padding-bottom: 2.5rem;    
+    }
+    
+    #footer {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 2.5rem;            
     }
     .navbar {
         background-color: #002244;
