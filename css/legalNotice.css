@@ -1,1 +1,81 @@
 
+    body {
+        font-family: 'Open Sans', sans-serif;
+        background-color: white;
+    }
+    #page-container {
+        position: relative;
+        min-height: 100vh;
+    }
+
+    #content-wrap {
+        padding-bottom: 2.5rem;    
+    }
+   .navbar {
+        background-color: #002244;
+    }
+    .navbar-nav {
+        align-items: center;
+    }
+    .navbar .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+    }
+    .navbar-collapse {
+        margin-top: 20px;
+    }
+    .navbar-light .navbar-toggler {
+        border: 1px solid white;
+        
+    }
+    .navbar-brand {
+        color: white;
+        transform: translateY(-5px);
+        max-width: 67px;
+        max-height: 61px;
+    }
+    .navbar-brand a:hover {
+        color: white;
+    }
+    .nav-link {
+        color: #FFFF;
+    }
+    .btn-dark {
+        background-color: #002244;
+        border: none;
+        font-size: 1.6em; 
+        font-weight: bold; 
+        transform: translateY(-5px);
+    }
+    .btn :hover {
+        background-color: none;
+    }     
+    .dropdown-item {
+        color: #FFFF;
+    }
+    .dropdown-menu {
+        background-color: #002244;
+        border: none;
+        margin: 10px;
+    }
+    .dropdown-menu a:hover {
+        background-color: #4d5154;
+        color: white;
+    }
+    .headline {
+      font-weight: bold;
+      font-size: 2.5em;
+      text-align: center;
+    }
+    .legal_notice {
+        background-color: #002244;
+        color:#FFFF;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 2.5rem;
+        margin-top: 25rem;
+     } 
+    .legal_notice a {
+        text-decoration: none;
+        color: #FFFF;
+    }
