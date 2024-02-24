@@ -11,14 +11,6 @@
     #content-wrap {
         padding-bottom: 2.5rem;    
     }
-    
-    #footer {
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-        height: 2.5rem; 
-        margin-top: 25rem;
-    }
     .navbar {
         background-color: #002244;
     }
@@ -105,6 +97,7 @@
         bottom: 0;
         width: 100%;
         height: 2.5rem;
+        margin-top: 25rem;
      } 
     .legal_notice a {
         text-decoration: none;
