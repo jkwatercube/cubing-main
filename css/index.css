@@ -36,12 +36,13 @@
     .navbar-brand a:hover {
         color: white;
     }
-    .nav-item {
+    .nav-link a {
         font-size: 1.6em; 
-        font-weight: bold; 
+        font-weight: bold;
+        color: white;
         transform: translateY(-5px);
     }
-    .nav-item :hover {
+    .nav-link a :hover {
         background-color: none;
         color: #FB4F14;
     }     
