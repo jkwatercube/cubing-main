@@ -2,6 +2,8 @@
     body {
         font-family: 'Open Sans', sans-serif;
         background-color: white;
+        position: relative;
+        min-height: 100vh;
     }
     .navbar {
         background-color: #002244;
@@ -85,11 +87,10 @@
      .legal_notice {
         background-color: #002244;
         color:#FFFF;
-        position: fixed;
-        left: 0;
+        position: absolute;
         bottom: 0;
         width: 100%;
-        text-align: center;
+        height: 2.5rem;
      } 
     .legal_notice a {
         text-decoration: none;
