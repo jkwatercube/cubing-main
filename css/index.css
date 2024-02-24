@@ -35,17 +35,7 @@
     }
     .navbar-brand a:hover {
         color: white;
-    }
-    .nav-link a {
-        font-size: 1.6em; 
-        font-weight: bold;
-        color: white;
-        transform: translateY(-5px);
-    }
-    .nav-link a :hover {
-        background-color: none;
-        color: #FB4F14;
-    }     
+    }    
     .dropdown-item {
         color: #FFFF;
     }
