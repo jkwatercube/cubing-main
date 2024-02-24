@@ -71,6 +71,12 @@
     .info {
       margin-right: 50px;
     }
+    .comp-name {
+        font-weight: bold;
+    }
+    .personal-info {
+        margin-top: 0.2em;
+    }
     .legal_notice {
         background-color: #002244;
         color:#FFFF;
